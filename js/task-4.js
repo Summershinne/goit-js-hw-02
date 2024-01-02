@@ -15,7 +15,7 @@ function getShippingCost(country) {
         return `Shipping to ${country} will cost 120 credits`
             break;
         
-    default: return "Sorry, there is no delivery to your country"
+ default: return "Sorry, there is no delivery to your country"
         break;
 }
 }
